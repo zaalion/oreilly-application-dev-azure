@@ -1,0 +1,11 @@
+https://azure.microsoft.com/en-us/services/devops/
+https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance
+https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_3/
+https://docs.microsoft.com/en-us/azure/cosmos-db/sql/performance-testing
+https://azure.microsoft.com/en-ca/services/cache/
+https://docs.microsoft.com/en-us/azure/event-grid/delivery-and-retry
+https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp
+https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+

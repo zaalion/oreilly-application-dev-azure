@@ -14,9 +14,10 @@ namespace CosmosGraph
     /// </summary>
     class Program
     {
-        private static string Host = "cosmosgraph1.gremlin.cosmos.azure.com";
+        // wss://cosmosgraphordemo01.gremlin.cosmos.azure.com:443/
+        private static string Host = "cosmosgraphordemo01.gremlin.cosmos.azure.com";
         private static string PrimaryKey =
-            "BmS6FSHwDJOrKPeRHgswo4sODaF3zx6huQEmT3OgGmHmJuihdkmeaJhQFUqqBKwvJTBOyLRmKWPqXmDiQnh7pw==";
+            "U7D3iMtElvDuweJxrR97P2luyvhsWCxXCgWD2QFj81G4ZfZK1m5uQSmAyTacZ4RAK7ch4wuHD4mA6FMMuEIpUw==";
         private static string Database = "graphdb";
         private static string Container = "Persons";
 
