@@ -5,6 +5,9 @@ using Azure.Messaging.ServiceBus;
 
 namespace ServiceBusDemo
 {
+    /// <summary>
+    /// https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
+    /// </summary>
     class Program
     {
         static string connectionString = "Endpoint=sb://servicebusns01.servicebus.windows.net/;" +

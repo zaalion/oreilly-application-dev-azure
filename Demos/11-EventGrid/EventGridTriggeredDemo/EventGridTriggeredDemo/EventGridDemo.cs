@@ -11,6 +11,10 @@ using Newtonsoft.Json;
 
 namespace EventGridTriggeredDemo
 {
+    /// <summary>
+    /// https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-grid?tabs=in-process%2Cextensionv3&pivots=programming-language-csharp
+    /// https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-grid-trigger?tabs=in-process%2Cextensionv3&pivots=programming-language-csharp    /// 
+    /// </summary>
     public static class EventGridDemo
     {
         [FunctionName("EventGridDemo")]

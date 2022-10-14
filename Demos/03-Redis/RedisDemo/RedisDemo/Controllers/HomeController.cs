@@ -11,6 +11,9 @@ using System.Threading;
 
 namespace RedisDemo.Controllers
 {
+    /// <summary>
+    /// https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache
+    /// </summary>
     public class HomeController : Controller
     {
         public ActionResult Index()
