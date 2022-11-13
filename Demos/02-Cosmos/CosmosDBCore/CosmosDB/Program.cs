@@ -18,7 +18,7 @@ namespace CosmosDB
             try
             {
                 // https://cosmosordemo01.documents.azure.com:443/
-                string endpoint = "https://cosmosordemo01.documents.azure.com:443/";
+                string endpoint = "https://ordemo01cosmos.documents.azure.com:443/";
                 if (string.IsNullOrEmpty(endpoint))
                 {
                     throw new 
@@ -26,7 +26,7 @@ namespace CosmosDB
                 }
 
                 string authKey =
-                    "ZQR49NJ653rbVb8TJW7b3noZ13blrv1RBQfhyzyAvnqSPdEtzr2M0TVbVS7WDAoNVKwa0ggqyt2Cb21tDvtSXQ==";
+                    "B2pKMwDZJj5H20gOQQaDoB32cL7c86ZXL0WlE09Nx2D4cjRaCQvjVDotsmQlTp9Ny5xtW4zel9PIMJa35ZjhtA==";
 
                 if (string.IsNullOrEmpty(authKey) || string.Equals(authKey, "Super secret key"))
                 {
@@ -94,7 +94,7 @@ namespace CosmosDB
                 Console.WriteLine($"\n4. Read a database throughput: {throughputResponse}");
 
                 // Update the current throughput for the database
-                database.ReplaceThroughputAsync(11000).Wait();
+                // database.ReplaceThroughputAsync(11000).Wait();
             }
 
             Console.WriteLine("\n5. Reading all databases resources for an account");

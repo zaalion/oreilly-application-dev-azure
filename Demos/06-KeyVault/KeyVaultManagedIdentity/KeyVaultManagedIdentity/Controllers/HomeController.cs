@@ -37,7 +37,7 @@ namespace KeyVaultManagedIdentity.Controllers
 
             ViewData["secretValue"] = secretValue;
 
-            ViewData["configValue"] = ConfigurationManager.AppSettings["APIKey"];
+            //ViewData["configValue"] = ConfigurationManager.AppSettings["APIKey"];
 
             return View();
         }

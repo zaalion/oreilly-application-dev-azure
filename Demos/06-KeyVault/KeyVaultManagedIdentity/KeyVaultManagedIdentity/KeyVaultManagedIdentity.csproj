@@ -191,6 +191,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\appservice-kv-demo - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\kv-demo01 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ordemowebapp01 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
